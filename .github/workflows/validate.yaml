@@ -23,7 +23,7 @@ jobs:
           python-version: '3.8'
 
       - name: Install validator
-        run: git clone https://github.com/openshift-eng/art-tools && cd art-tools/ocp-build-data-validator && pip install .
+        run: git clone -b validator-self-referential-upgrades https://github.com/adobes1/art-tools && cd art-tools/ocp-build-data-validator && pip install .
 
       - name: Get all relevant files that have changed
         id: changed-files
