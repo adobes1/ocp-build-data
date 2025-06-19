@@ -59,4 +59,3 @@ konflux:
     mode: emulation
   cachi2:
     enabled: true
-  network_mode: open
