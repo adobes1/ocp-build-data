@@ -40,3 +40,5 @@ owners:
 konflux:
   cachito:
     mode: removal
+  cachi2:
+    enabled: false
