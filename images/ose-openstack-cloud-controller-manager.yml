@@ -3,9 +3,9 @@ content:
     dockerfile: images/cloud-controller-manager/Dockerfile
     git:
       branch:
-        target: release-{MAJOR}.{MINOR}
-      url: git@github.com:openshift-priv/cloud-provider-openstack.git
-      web: https://github.com/openshift/cloud-provider-openstack
+        target: drop-json-from-gitignore-4.16
+      url: git@github.com:shiftstack/cloud-provider-openstack.git
+      web: https://github.com/shiftstack/cloud-provider-openstack
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
@@ -39,6 +39,3 @@ owners:
 - dmoiseev@redhat.com
 - mbooth@redhat.com
 - m.andre@redhat.com
-konflux:
-  cachi2:
-    enabled: false  # https://issues.redhat.com/browse/ART-13260
