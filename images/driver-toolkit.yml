@@ -44,4 +44,4 @@ payload_name: driver-toolkit
 owners:
 - edge-sro@redhat.com
 konflux:
-  network_mode: open
+  network_mode: hermetic
