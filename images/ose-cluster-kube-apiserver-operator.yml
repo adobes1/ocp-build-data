@@ -2,7 +2,7 @@ cachito:
   packages:
     gomod:
     - path: .
-    - path: test/extended/test-extension/cmd
+    - path: test/extended/tests-extension
 content:
   source:
     dockerfile: Dockerfile.rhel7
