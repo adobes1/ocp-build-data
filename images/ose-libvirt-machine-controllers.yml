@@ -3,8 +3,9 @@ content:
     dockerfile: Dockerfile.rhel7
     git:
       branch:
-        target: release-{MAJOR}.{MINOR}
+        target: 4.22-fix-vendor
       url: git@github.com:openshift-priv/cluster-api-provider-libvirt.git
+      url_pull: git@github.com:adobes1/cluster-api-provider-libvirt.git
       web: https://github.com/openshift/cluster-api-provider-libvirt
     ci_alignment:
       streams_prs:
@@ -37,7 +38,3 @@ name: openshift/ose-libvirt-machine-controllers-rhel9
 payload_name: libvirt-machine-controllers
 owners:
 - pkrupa@redhat.com
-konflux:
-  network_mode: open
-  cachi2:
-    enabled: false # https://issues.redhat.com/browse/ART-13260
