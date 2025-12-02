@@ -170,6 +170,9 @@ push:
 public_upstreams:
 - private: "https://github.com/openshift-priv/operator-marketplace"
   public:  "https://github.com/operator-framework/operator-marketplace"
+- private: "https://github.com/openshift-priv/multus-networkpolicy"
+  public:  "https://github.com/adobes1/multus-networkpolicy"
+  public_branch: "test-hermetic"
 - private: "https://github.com/openshift-priv"
   public:  "https://github.com/openshift"
 - private: "https://github.com/openshift-priv/cloud-event-proxy"
