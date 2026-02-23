@@ -72,6 +72,8 @@ konflux:
       - libubsan
       - libxcrypt-devel
       - make
+  vm_override:
+  - linux-m2xlarge/amd64
 okd:
   content:
     source:
