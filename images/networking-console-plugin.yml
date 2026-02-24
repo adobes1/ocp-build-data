@@ -50,4 +50,3 @@ payload_name: networking-console-plugin
 konflux:
   cachito:
     mode: emulation
-  network_mode: open

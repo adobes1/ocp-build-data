@@ -36,4 +36,7 @@ payload_name: agent-installer-utils
 owners:
 - ocp-agent-team@redhat.com
 konflux:
-  network_mode: open
+  cachi2:
+    lockfile:
+      rpms:
+      - nmstate-devel
