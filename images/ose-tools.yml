@@ -39,3 +39,8 @@ payload_name: tools
 owners:
 - aos-master@redhat.com
 name_in_bundle: ose-tools-rhel9
+konflux:
+  cachi2:
+    lockfile:
+      rpms:
+      - iotop-c
