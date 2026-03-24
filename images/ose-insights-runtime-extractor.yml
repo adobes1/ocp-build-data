@@ -48,10 +48,13 @@ konflux:
       - libasan
       - libatomic
       - libedit
+      - libgomp
       - libmpc
       - libpkgconf
       - libubsan
       - libxcrypt-devel
+      - llvm
+      - llvm-filesystem
       - llvm-libs
       - make
       - pkgconf
