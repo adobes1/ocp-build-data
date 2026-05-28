@@ -44,4 +44,11 @@ owners:
 konflux:
   cachi2:
     lockfile:
-      backend: rpm-lockfile-prototype
+      rpms:
+      - microshift
+      - microshift-release-info
+      - microshift-selinux
+      - openshift-clients
+      - microshift-greenboot
+      - microshift-networking
+      - cri-o
