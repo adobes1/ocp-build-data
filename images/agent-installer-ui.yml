@@ -7,6 +7,7 @@ content:
       branch:
         target: release-{MAJOR}.{MINOR}
       url: git@github.com:openshift-priv/assisted-installer-ui.git
+      url_pull: git@github.com:adobes1/assisted-installer-ui.git
       web: https://github.com/openshift-assisted/assisted-installer-ui
     modifications:
     - action: replace
