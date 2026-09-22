@@ -21,7 +21,7 @@ name: microshift
 distgit:
   branch: rhaos-{MAJOR}.{MINOR}-rhel-9
 targets:
-- rhaos-{MAJOR}.{MINOR}-rhel-9-candidate
+- rhaos-4.22-rhel-9-build-sidetag-200916
 owners:
 - microshift-devel@redhat.com
 # This is used by microshift_sync job
