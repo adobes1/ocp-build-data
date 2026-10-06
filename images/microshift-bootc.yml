@@ -14,6 +14,9 @@ content:
       match: "ARG BASE_IMAGE_TAG"
       replacement: "ARG BASE_IMAGE_TAG='9.8'"
     - action: replace
+      match: "ARG DNF_OPTIONS"
+      replacement: "ARG DNF_OPTIONS='--nobest'"
+    - action: replace
       match: "RUN dnf install"
       replacement: |
         RUN rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release && \
