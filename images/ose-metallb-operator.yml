@@ -28,6 +28,13 @@ from:
 owners:
 - metallb-dev@redhat.com
 update-csv:
+  art-yaml-overrides:
+    - name: MAJOR
+      value: 5
+      search_only: true
+    - name: MINOR
+      value: 0
+      search_only: true
   bundle-dir: 'stable/'
   manifests-dir: manifests/
   registry: image-registry.openshift-image-registry.svc:5000
